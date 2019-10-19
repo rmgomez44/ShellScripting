@@ -1,7 +1,7 @@
 #!bin/bash
 
 # Chequear usuario apropiado
-Usuario=whoami
+Usuario=$(whoami)
 
 if  [$Usuario = root]
 then
